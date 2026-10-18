@@ -2,19 +2,19 @@
   {
     "title": "Fundamentals of Data Engineering",
     "author": "Joe Reis & Matt Housley",
-    "type": "کتاب",
+    "type": "مهندسی داده",
     "cover": "assets/books/fode.jpg"
   },
   {
     "title": "Designing Data-Intensive Applications",
     "author": "Martin Kleppmann",
-    "type": "کتاب",
+    "type": "مهندسی داده",
     "cover": "assets/books/ddia.jpg"
   },
   {
     "title": "AI Engineering",
     "author": "Chip Huyen",
-    "type": "کتاب",
+    "type": "مهندسی هوش مصنوعی",
     "cover": "assets/books/aie.jpg"
   }
 ]
