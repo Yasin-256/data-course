@@ -392,8 +392,18 @@
         clip: rect(0 0 0 0);
         white-space: nowrap;
       }
-      .r-title { flex: 1; min-width: 0; color: var(--fg); text-decoration: none; }
+      .r-title { color: var(--fg); text-decoration: none; }
       a.r-title:hover { color: var(--accent); }
+      .r-cover {
+        flex: none;
+        width: 2.9rem;
+        height: 4rem;
+        object-fit: cover;
+        border-radius: 4px;
+        box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.35);
+      }
+      .r-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.2rem; }
+      .r-author { font-size: 0.8rem; color: var(--fg-subtle); }
       .s-link {
         flex: none;
         font-family: var(--font-mono);
@@ -1361,12 +1371,16 @@
         function resourceCard(r) {
           var li = document.createElement("li");
           li.className = "resource";
-          if (r.type) {
-            var b = document.createElement("span");
-            b.className = "r-badge";
-            b.textContent = r.type;
-            li.appendChild(b);
+          if (r.cover) {
+            var cover = document.createElement("img");
+            cover.className = "r-cover";
+            cover.src = r.cover;
+            cover.alt = r.title || "";
+            cover.loading = "lazy";
+            li.appendChild(cover);
           }
+          var info = document.createElement("div");
+          info.className = "r-info";
           var t = r.link ? document.createElement("a") : document.createElement("span");
           t.className = "r-title";
           if (r.link) {
@@ -1375,7 +1389,20 @@
             t.rel = "noopener";
           }
           t.textContent = r.title || "";
-          li.appendChild(t);
+          info.appendChild(t);
+          if (r.author) {
+            var au = document.createElement("span");
+            au.className = "r-author";
+            au.textContent = r.author;
+            info.appendChild(au);
+          }
+          li.appendChild(info);
+          if (r.type) {
+            var b = document.createElement("span");
+            b.className = "r-badge";
+            b.textContent = r.type;
+            li.appendChild(b);
+          }
           return li;
         }
         function sponsorCard(sp) {
