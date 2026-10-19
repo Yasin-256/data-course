@@ -2,7 +2,7 @@
   { "type": "جلسه ۱", "title": "نقشه‌ی راه: از کجا شروع می‌کنیم و قراره به کجا برسیم؟", "speaker": "مصطفی قدیمی", "date": "شنبه ۲۵ مهر، ساعت ۱۹", "video": "https://youtu.be/K8-4RnB4pL4", "slides": "https://github.com/mostafaghadimi/data-course-artifacts/blob/main/slides/session-01.pdf" },
   { "type": "جلسه ۲", "title": "تصمیم‌گیری داده‌محور در کسب‌وکار؛ از متریک‌ها تا ایجنت‌ها", "speaker": "محمدمهدی شکری", "date": "یکشنبه ۲۶ مهر، ساعت ۱۷", "video": "https://www.youtube.com/watch?v=5AvXzrdSjGw", "slides": "https://github.com/mostafaghadimi/data-course-artifacts/blob/main/slides/session-02.pdf" },
   { "type": "جلسه ۳", "title": "پیش‌نیازهای مهندسی داده (۱): گیت، لینوکس و مفاهیم پایه‌ی شبکه", "speaker": "احمد کریمی", "date": "دوشنبه ۲۷ مهر، ساعت ۱۷", "start": "2026-10-19T17:00:00+03:30", "join": "https://event.alocom.co/class/mostafaghadimi/de_ai_engineering_course_03" },
-  { "type": "جلسه ۴", "title": "پیش‌نیازهای مهندسی داده (۲): داکر و اتصال به دیتابیس", "speaker": "احمد کریمی", "date": "" },
+  { "type": "جلسه ۴", "title": "پیش‌نیازهای مهندسی داده (۲): ادامه‌ی گیت و شبکه، داکر و اتصال به دیتابیس", "speaker": "احمد کریمی", "date": "سه‌شنبه ۲۸ مهر، ساعت ۲۰", "start": "2026-10-20T20:00:00+03:30", "join": "https://event.alocom.co/class/mostafaghadimi/de_ai_engineering_course_04" },
   { "type": "جلسه ۵", "title": "دیکشنری مهندسی داده", "speaker": "نیوشا بقایی", "date": "" },
   { "type": "جلسه ۶", "title": "آموزش SQL", "speaker": "سحر منصوری‌فر", "date": "" },
   { "type": "جلسه ۷", "title": "کارگاه Airflow", "speaker": "رضا امینی", "date": "" },
