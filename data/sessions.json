@@ -4,7 +4,7 @@
   { "type": "جلسه ۳", "title": "پیش‌نیازهای مهندسی داده (۱): گیت، لینوکس و مفاهیم پایه‌ی شبکه", "speaker": "احمد کریمی", "date": "دوشنبه ۲۷ مهر، ساعت ۱۷", "video": "https://youtu.be/PpcPoRRJnLo", "slides": "https://github.com/mostafaghadimi/data-course-artifacts/blob/main/slides/session-03.pdf" },
   { "type": "جلسه ۴", "title": "پیش‌نیازهای مهندسی داده (۲): ادامه‌ی گیت و شبکه، داکر و اتصال به دیتابیس", "speaker": "احمد کریمی", "date": "سه‌شنبه ۲۸ مهر، ساعت ۲۰", "video": "https://www.youtube.com/watch?v=WefOBg5zvEk", "slides": "https://github.com/mostafaghadimi/data-course-artifacts/blob/main/slides/session-04.pdf", "exercise": "https://github.com/mostafaghadimi/data-course-artifacts/blob/main/exercises/session-04.pdf" },
   { "type": "جلسه ۵", "title": "دیکشنری مهندسی داده", "speaker": "نیوشا بقایی", "date": "شنبه ۲ آبان، ساعت ۲۰", "video": "https://youtu.be/7rq0xbAXZ_8", "slides": "https://github.com/mostafaghadimi/data-course-artifacts/blob/main/slides/session-05.pdf" },
-  { "type": "جلسه ۶", "title": "رفع اشکال و جمع‌بندی جلسات گذشته", "speaker": "مصطفی قدیمی", "date": "یک‌شنبه ۳ آبان، ساعت ۲۰", "start": "2026-10-25T20:00:00+03:30", "join": "https://event.alocom.co/class/mostafaghadimi/de_ai_engineering_course_06" },
+  { "type": "جلسه ۶", "title": "رفع اشکال و جمع‌بندی جلسات گذشته", "speaker": "مصطفی قدیمی", "date": "یک‌شنبه ۳ آبان، ساعت ۲۰", "video": "https://www.youtube.com/watch?v=BXqbh_V8OYk" },
   { "type": "جلسه ۷", "title": "آموزش SQL", "speaker": "سحر منصوری‌فر", "date": "" },
   { "type": "جلسه ۸", "title": "کارگاه Airflow", "speaker": "رضا امینی", "date": "" },
   { "type": "جلسه ۹", "title": "انواع دیتابیس‌ها: OLTP و OLAP، دیتاورهاوس، دیتالیک و لیک‌هاوس", "speaker": "مصطفی قدیمی", "date": "" },
